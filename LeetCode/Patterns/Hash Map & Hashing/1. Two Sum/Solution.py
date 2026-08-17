@@ -6,7 +6,7 @@ class Solution:
             diff = target - nums[i]
             if diff in dicto:
                 return [dicto[diff],i]
-            dicto[n]=i
+            dicto[nums[i]]=i
         return
 
 
