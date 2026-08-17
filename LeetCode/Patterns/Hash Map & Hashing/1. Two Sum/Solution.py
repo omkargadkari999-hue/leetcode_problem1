@@ -1,14 +1,12 @@
 class Solution:
     def twoSum(self, nums, target):
-        hashmap = {}
-
-        for i, num in enumerate(nums):
-            complement = target - num
-
-            if complement in hashmap:
-                return [hashmap[complement], i]
-
-            hashmap[num] = i
+        n=len(nums)
+        dicto={}
+        for i range(0,n):
+            diff = target - n
+            if diff in dicto:
+                return [dicto[diff],i]
+            dicto[n]=i
 
 
         
