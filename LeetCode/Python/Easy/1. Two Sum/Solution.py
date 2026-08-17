@@ -7,6 +7,7 @@ class Solution:
             if diff in dicto:
                 return [dicto[diff],i]
             dicto[n]=i
+            return
 
 
         
